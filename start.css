@@ -1,0 +1,37 @@
+body {
+    background: #fffde7;
+  }
+  div {
+    margin: 30px;
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+    font-weight: bold;
+  }
+  .button {
+    display       : inline-block;
+    border-radius : 5%;          /* 角丸       */
+    font-size     : 28pt;        /* 文字サイズ */
+    text-align    : center;      /* 文字位置   */
+    cursor        : pointer;     /* カーソル   */
+    padding       : 32px 31px;   /* 余白       */
+    background    : #66ff66;     /* 背景色     */
+    color         : rgba(0, 0, 0, 0.74);     /* 文字色     */
+    line-height   : 1em;         /* 1行の高さ  */
+    opacity       : 1;           /* 透明度     */
+    transition    : .3s;         /* なめらか変化 */
+    box-shadow    : 6px 6px 3px #666666;  /* 影の設定 */
+  }
+  .button:hover {
+    box-shadow    : none;        /* カーソル時の影消去 */
+    opacity       : 0.8;         /* カーソル時透明度 */
+  }
+
+  #center{
+    display: block;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+  }
+  
+

@@ -1,0 +1,13 @@
+.parent {
+    display: flex;
+    }
+    
+   .child {
+    color: #fff;
+    border: solid 1px #fff;
+    text-align: center;
+    line-height: 100px;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+   }

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Playing 2048</title>
+</head>
+<body>
+  <p class="score">得点</p>
+  <p class="score-board">
+    <div id="score"></div>点
+  </p>
+  <p class="until">ゲーム終了まで</p>
+  <p class="timer">あと
+      <span id="min"></span>分
+      <span id="sec"></span>秒
+  </p>
+  <div class="centering">
+    <p id="syurasuko">0</p>
+    <div id="gameboard" class="flex-container">
+    </div>
+  </div>
+  <div class="centering">
+    <button id="autoButton" class="autoButton">AUTO</button>
+  </div>
+  <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
